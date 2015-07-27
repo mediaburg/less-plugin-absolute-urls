@@ -1,0 +1,17 @@
+{
+    "name": "less-plugin-absolute-urls",
+    "version": "0.0.1",
+    "description": "plugin to make urls absolute",
+    "homepage": "http://mediaburg.ch",
+    "author": {
+        "name": "Matthias Rumpf"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/mediaburg/less-plugin-absolute-urls.git"
+    },
+    "main": "lib/index.js",
+    "engines": {
+        "node": ">=0.4.2"
+    }
+}
