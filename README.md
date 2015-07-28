@@ -3,19 +3,14 @@ less-plugin-absolute-urls
 
 Replace all relative urls with absolute file paths.
 
-## lessc usage
+## Usage
 
 ```
 npm install -g less-plugin-absolute-urls
+
+lessc file.less --absolute-urls="replace={par1}:{par2}"
 ```
 
-and then on the command line,
+### Options
 
-```
-lessc file.less --absolute-urls
-```
-
-## todos
-
-- handle data-uris
-- add tests
+- `replace`: replaces `{par1}` in all url paths with `{par2}`, can be defined multiple times

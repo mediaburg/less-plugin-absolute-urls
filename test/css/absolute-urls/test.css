@@ -1,0 +1,18 @@
+.a {
+  background-image: url("/custom/path/test/less/absolute-urls/a.png");
+}
+.b {
+  background-image: url("/custom/path/test/less/absolute-urls/sub/b.png");
+}
+.c {
+  background-image: url("/custom/path/test/less/c.png");
+}
+.d {
+  background-image: url("http://example.com/d.png");
+}
+.e {
+  background-image: url("/e.png");
+}
+.f {
+  background-image: url(data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGolfO0o/XBs/fNwfjZ0frl3/zy7////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAABAALAAAAAAQABAAAAVVICSOZGlCQAosJ6mu7fiyZeKqNKToQGDsM8hBADgUXoGAiqhSvp5QAnQKGIgUhwFUYLCVDFCrKUE1lBavAViFIDlTImbKC5Gm2hB0SlBCBMQiB0UjIQA7);
+}
