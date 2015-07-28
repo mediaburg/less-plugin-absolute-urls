@@ -14,3 +14,8 @@ and then on the command line,
 ```
 lessc file.less --absolute-urls
 ```
+
+## todos
+
+- handle data-uris
+- add tests
